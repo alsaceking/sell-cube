@@ -1,6 +1,6 @@
 <template>
   <transition name="fade">
-    <div v-show="visible" class="header-detail" @touchmove.stop.prevent>
+    <div v-show="visible" class="header-detail" @touchmove.stop.prevent @click="hide">
       <div class="detail-wrapper clear-fix">
         <div class="detail-main">
           <h1 class="name">{{seller.name}}</h1>
