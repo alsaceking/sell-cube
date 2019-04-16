@@ -1,6 +1,6 @@
 <template>
   <div class="seller">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+    i am seller
   </div>
 </template>
 
